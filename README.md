@@ -83,7 +83,7 @@ class Instabot():
         #close scroll_box
         self.driver.find_element_by_xpath("/html/body/div[4]/div/div[1]/div/div[2]/button").click()
         return names
-```        
+```         
 - **quit**:
 ```python
     def quit(self):
